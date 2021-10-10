@@ -1,5 +1,5 @@
 import random, json
-from types import SimpleNamespace
+
 class Card():
     def __init__(self, suit = None, value = None):
         self.suit = suit
